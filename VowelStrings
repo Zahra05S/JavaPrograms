@@ -1,0 +1,24 @@
+2 pointer
+String s = "workaattech";
+int k=3;
+char vowels = "a" || "e" || "i"  || "o" || "u";
+int i = 0;
+int j = s.length()-1;
+char[] str1 = s.toCharArray();
+STring str2 ="";
+while (i < j)
+{
+if (isVowels(str1[i]))
+{
+str2 = list.add(str1);
+i++;
+continue;
+}
+if (isVowels(str1[j]))
+{
+str3=list.add(str1);
+j--;
+continue;
+}
+String str4=str2+str3;
+system.out.println(str4)
